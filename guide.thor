@@ -6,10 +6,6 @@ class Guide < Thor
 
   desc "pdf", "Create PDF"
   def pdf
-    puts "Directory: #{Dir.pwd}"
-    puts Clerq.settings.document
-    puts Clerq.settings.title
-
     `clerq build -t=pandoc.md.erb`
     Dir.chdir('bin') {
       `pandoc -s --toc clerq-video-guide.md -o "Clerq Video Guide.pdf"`

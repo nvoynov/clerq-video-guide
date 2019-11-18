@@ -1,6 +1,4 @@
-# Clerq-tutor
-
-Welcome to new [Clerq](https://github.com/nvoynov/clerq) project "clerq-tutor"!
+# Clerq Video Guide
 
 ## Directories structure
 
@@ -11,7 +9,7 @@ This project has the following structure:
 * [src/](src/) - nodes folder;
 * [lib/](lib/) - library folder;
 * [tt/](tt/) - templates folder;
-* [clerq-tutor.thor](clerq-tutor.thor) - file with custom  tasks;
+* [guide.thor](guide.thor) - file with custom  tasks;
 * [README.md](README.md) - this file.
 
 ## Command Line Interface
@@ -22,7 +20,7 @@ To see standard commands enter the following command:
 
 To see custom commands enter the following command:
 
-   thor clerq-tutor:list
+   thor guide:list
 
 ## How to start
 
